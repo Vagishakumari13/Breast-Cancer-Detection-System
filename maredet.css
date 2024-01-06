@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+    text-align: center;
+}
+
+ h2{
+        font-size: 100px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: rgb(33, 184, 187);
+      }
+
+      p{
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+      }
+
+         
+
+
+      .data{
+        margin-top: 30px;
+      }
+      .detail{
+        font-size: 18px;
+        background: rgb(33, 184, 187);
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        padding: 8px 25px;
+        border-radius: 6px;
+        transition: 0.5s;
+      }
+      .detail:hover{
+        background: #000;
+        border: 1px solid #4070f4;
+      }

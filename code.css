@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400)
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+}
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:25px 12%;
+    background: rgba(15, 3, 53, 0.215);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:99;
+}
+
+.logo{
+    font-size: 0.5cm;
+    color: #fff;
+    user-select: none;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 0.5cm;
+    color: #fff;
+    text-decoration: none;
+    font-weight:400;
+    margin-left: 40px;
+}
+
+.navbar a::after{
+    content:'';
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    width: 0%;
+    height:2px;
+    background: #2e922e;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    transform-origin: right;
+    transition: 0.5s;
+   
+}
+
+.navbar a:hover::after{
+    width:100%;
+}
+
+body {
+    background-color: #444442;
+    padding-top: 85px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif, 'arial';
+    font-weight: 400;
+    font-size: 20px;
+    color: #efebeb;
+    line-height: 1.5;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+           
+body {
+    background-image: linear-gradient(40deg,
+            hsl(240deg 56% 48%) 0%,
+            hsl(250deg 48% 49%) 10%,
+            hsl(260deg 40% 49%) 24%,
+            hsl(271deg 34% 50%) 42%,
+            hsl(285deg 28% 50%) 57%,
+            hsl(305deg 24% 50%) 68%,
+            hsl(325deg 29% 54%) 75%,
+            hsl(340deg 34% 58%) 81%,
+            hsl(354deg 40% 62%) 85%,
+            hsl(358deg 39% 63%) 89%,
+            hsl(353deg 31% 62%) 92%,
+            hsl(345deg 22% 61%) 94%,
+            hsl(330deg 14% 60%) 96%,
+            hsl(284deg 9% 60%) 97%,
+            hsl(232deg 12% 62%) 98%,
+            hsl(212deg 22% 61%) 99%,
+            hsl(204deg 32% 60%) 100%,
+            hsl(200deg 41% 58%) 100%);
+    background-repeat: no-repeat;
+    height: 99vh;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+            .formBox {
+                padding: 15px;
+                text-align: center;
+                min-height: 50vh;
+                min-width: 50vw;
+                display: flex;
+                flex-direction: column;
+                background: #44323285;
+                border-radius: 30px;
+                backdrop-filter: blur(10px);
+
+            }
+
+            h2 {
+                margin-bottom: -10px;
+            }
+
+            .upload-btn-wrapper {
+                position: relative;
+                overflow: hidden;
+                display: inline-block;
+              }
+              
+              .btn {
+                border: 2px solid rgb(21, 14, 14);
+                color: rgb(13, 23, 27);
+                background-color: rgb(27, 147, 123);
+                padding: 8px 20px;
+                border-radius: 8px;
+                font-size: 20px;
+                font-weight: bold;
+              }
+              
+              .upload-btn-wrapper input[type=file] {
+                font-size: 100px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                opacity: 0;
+              }
+
+
+              .detail{
+                font-size: 18px;
+                background: rgb(33, 184, 187);
+                color: #fff;
+                text-decoration: none;
+                border: none;
+                padding: 8px 25px;
+                border-radius: 6px;
+                transition: 0.5s;
+              }
+              .detail:hover{
+                background: #000;
+                border: 1px solid #4070f4;
+              }

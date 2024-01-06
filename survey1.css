@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    
+  }
+body{
+    background: url('https://healthitanalytics.com/images/site/article_headers/_normal/ThinkstockPhotos-801680686.jpg');
+    background-size: 280%;
+    background-position: 20px 0px;
+}
+div.main{
+    width: 800px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: serif;
+}
+div.survey1{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px;
+    color: #fff;
+    margin: 10px auto 0px auto;
+}
+form#survey{
+    margin: 60px;
+}
+
+
+.detail{
+    font-size: 18px;
+    background: rgb(33, 184, 187);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .detail:hover{
+    background: #000;
+    border: 1px solid #4070f4;
+  }

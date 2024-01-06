@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+}
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:25px 12%;
+    background: rgba(15, 3, 53, 0.215);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:99;
+}
+
+.logo{
+    font-size: 0.5cm;
+    color: #fff;
+    user-select: none;
+    
+}
+
+.navbar a{
+    position: relative;
+    font-size: 0.5cm;
+    color: #fff;
+    text-decoration: none;
+    font-weight:400;
+    margin-left: 40px;
+}
+
+.navbar a::after{
+    content:'';
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    width: 0%;
+    height:2px;
+    background: #2e922e;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    transform-origin: right;
+    transition: 0.5s;
+   
+}
+
+.navbar a:hover::after{
+    width:100%;
+}
+
+
+
+.title{
+    position: absolute;
+    top:45%;
+    left:45%;
+    transform: translate(-50%,-50%);
+}
+
+.title p{
+    font-size:20px ;
+
+
+}
+
+
+.title h3{
+    color:#fff;
+    font-size: 55px;
+}
+
+nav.fa{
+    display: none;
+
+}
+
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@media(max-width: 700px){
+    .title h3{
+        font-size:30px;
+      }
+        .navbar a{
+            display: block;
+        }
+        
+        .navbar{
+            position: absolute;
+            background: rgba(32, 127, 139, 0.701);
+            height: 100vh;
+            width:200px;
+            top:0;
+            right:-200px;
+            text-align:left;
+            z-index:1;
+        }
+
+        nav.fa{
+            display:block;
+            color:#fff;
+            margin:10px;
+            font-size: 22px;
+            cursor:pointer;
+
+        }
+
+        .navbar a{
+            padding:30px;
+        }
+}
+
+
+
+

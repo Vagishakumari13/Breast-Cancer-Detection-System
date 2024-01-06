@@ -1,0 +1,26 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+       <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+<title>RESULT</title>
+
+<style>
+    body {
+background-image:  linear-gradient(rgba(0, 0, 0, 0.688),rgba(0, 0, 0, 0.611)), url('https://healthitanalytics.com/images/site/article_headers/_normal/ThinkstockPhotos-801680686.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+color: #FFFFFF;
+}
+  </style>
+
+<link rel="stylesheet" type="text/css" href="code.html">
+</head>
+<body>
+  <form action = "{{ url_for('predict')}}" method="POST">
+<label>Enter your Data</label><br>
+<input type="data" name="data" placeholder="Enter your data"><br>
+<br><button ><a href="http://127.0.0.1:5000" class="detail">Start</a></button>
+</form>
+</body>
+</html>
